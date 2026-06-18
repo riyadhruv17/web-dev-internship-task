@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Page</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <label>Full Name:</label><br>
+        <input type="text" name="fullname"><br><br>
+
+        <label>Email Address:</label><br>
+        <input type="email" name="email"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label>Phone Number:</label><br>
+        <input type="tel" name="phone"><br><br>
+
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <input type="radio" name="gender" value="Other"> Other
+        <br><br>
+
+        <label>Skills:</label><br>
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <input type="checkbox" name="skills" value="Java"> Java
+        <br><br>
+
+        <label>City:</label><br>
+        <select name="city">
+            <option>Ahmedabad</option>
+            <option>Bhavnagar</option>
+            <option>Rajkot</option>
+            <option>Surat</option>
+            <option>Vadodara</option>
+        </select>
+        <br><br>
+
+        <label>Message:</label><br>
+        <textarea rows="5" cols="30"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <hr>
+
+    <h2>Student Details Table</h2>
+
+    <table border="1" cellpadding="8">
+        <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Email</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Riya Patel</td>
+            <td>BCA</td>
+            <td>riya@gmail.com</td>
+            <td>Bhavnagar</td>
+        </tr>
+        <tr>
+            <td>Amit Shah</td>
+            <td>B.Sc IT</td>
+            <td>amit@gmail.com</td>
+            <td>Ahmedabad</td>
+        </tr>
+        <tr>
+            <td>Priya Mehta</td>
+            <td>B.Com</td>
+            <td>priya@gmail.com</td>
+            <td>Surat</td>
+        </tr>
+        <tr>
+            <td>Rahul Joshi</td>
+            <td>BBA</td>
+            <td>rahul@gmail.com</td>
+            <td>Rajkot</td>
+        </tr>
+        <tr>
+            <td>Neha Patel</td>
+            <td>BCA</td>
+            <td>neha@gmail.com</td>
+            <td>Vadodara</td>
+        </tr>
+    </table>
+
+</body>
+</html>
