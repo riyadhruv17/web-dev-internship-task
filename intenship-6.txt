@@ -1,0 +1,206 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Display Block Example */
+section {
+    display: block;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0066cc, #00bcd4);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Sticky Navigation */
+nav {
+    background-color: #ff9800;
+    padding: 15px;
+    text-align: center;
+
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Inline-Block Example */
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Hero Section using vh and vw */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+.hero button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e68900;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    color: #0066cc;
+    margin-bottom: 30px;
+}
+
+.destination-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.destination-card h3 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.destination-card p {
+    color: #555;
+}
+
+/* About Section */
+.about {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+/* Inline Display Example */
+.about span {
+    display: inline;
+    font-weight: bold;
+}
+
+/* Overflow Section */
+.reviews {
+    background-color: white;
+    margin: 30px;
+    padding: 20px;
+    height: 200px;
+    overflow: auto;
+    border: 2px solid #0066cc;
+    border-radius: 10px;
+}
+
+.reviews h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+.reviews p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Fixed Contact Button */
+.contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    background-color: #28a745;
+    color: white;
+
+    padding: 12px 20px;
+    border-radius: 30px;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.contact-btn:hover {
+    background-color: #218838;
+}
