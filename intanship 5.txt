@@ -1,0 +1,232 @@
+﻿/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #0066cc, #00bcd4);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    font-size: 45px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #ff9800;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: black;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 120px 20px;
+}
+
+.hero h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #e68900;
+}
+
+/* Destinations Section */
+.destinations {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.destinations h2 {
+    color: #0066cc;
+    margin-bottom: 30px;
+}
+
+.destination-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destination-card {
+    background-color: white;
+    width: 280px;
+    padding: 20px;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.destination-card h3 {
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+.destination-card p {
+    color: #555;
+}
+
+/* About Section */
+.about {
+    background-color: #e3f2fd;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.about h2 {
+    color: #0066cc;
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World - Travel Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Explore World</h1>
+        <p>Your Dream Destination Awaits</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Destinations</a>
+        <a href="#">Packages</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Travel Around the World</h2>
+        <p>
+            Discover beautiful places, exciting adventures, and unforgettable memories.
+        </p>
+        <button>Book Your Trip</button>
+    </section>
+
+    <section class="destinations">
+        <h2>Popular Destinations</h2>
+
+        <div class="destination-container">
+
+            <div class="destination-card">
+                <h3>Paris</h3>
+                <p>Experience the beauty of the Eiffel Tower and French culture.</p>
+            </div>
+
+            <div class="destination-card">
+                <h3>Dubai</h3>
+                <p>Explore luxury shopping, skyscrapers, and desert adventures.</p>
+            </div>
+
+            <div class="destination-card">
+                <h3>Bali</h3>
+                <p>Relax on stunning beaches and enjoy tropical paradise.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>Why Travel With Us?</h2>
+
+        <p>
+            <span>Affordable Packages</span> |
+            <span>Expert Guides</span> |
+            <span>Luxury Hotels</span> |
+            <span>24/7 Support</span>
+        </p>
+    </section>
+
+    <!-- Overflow Section -->
+    <section class="reviews">
+        <h2>Traveler Reviews</h2>
+
+        <p>★★★★★ Amazing trip experience with Explore World.</p>
+        <p>★★★★★ The hotels were excellent and comfortable.</p>
+        <p>★★★★★ Friendly guides and affordable packages.</p>
+        <p>★★★★★ Paris tour was unforgettable.</p>
+        <p>★★★★★ Dubai safari was thrilling.</p>
+        <p>★★★★★ Bali beaches were beautiful.</p>
+        <p>★★★★★ Highly recommended for family vacations.</p>
+        <p>★★★★★ Excellent customer service.</p>
+        <p>★★★★★ Easy booking process.</p>
+        <p>★★★★★ Looking forward to my next trip.</p>
+        <p>★★★★★ Great value for money.</p>
+        <p>★★★★★ Wonderful travel memories.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 Explore World Travel Agency | All Rights Reserved</p>
+    </footer>
+
+    <!-- Fixed Contact Button -->
+    <a href="#" class="contact-btn">Contact Us</a>
+
+</body>
+</html>
