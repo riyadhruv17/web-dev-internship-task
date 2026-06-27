@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+/* Navbar Links */
+nav a{
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+/* Buttons */
+.btn{
+    transition:all 0.3s ease;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+/* Hero Image */
+.hero-image{
+    transition:0.5s ease;
+}
+
+.hero-image:hover{
+    transform:scale(1.03);
+}
+
+/* Feature Cards */
+.feature-card{
+    transition:all 0.3s ease;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Service Cards */
+.service-card{
+    transition:all 0.3s ease;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Testimonials */
+.testimonial-card{
+    transition:all 0.3s ease;
+}
+
+.testimonial-card:hover{
+    transform:translateY(-10px);
+}
+
+/* Contact Form */
+input,
+textarea{
+    transition:0.3s ease;
+}
+
+input:focus,
+textarea:focus{
+    border-color:#2563eb;
+    outline:none;
+    box-shadow:0 0 10px rgba(37,99,235,0.2);
+}
+
+/* Footer */
+footer{
+    letter-spacing:1px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar{
+    width:10px;
+}
+
+::-webkit-scrollbar-track{
+    background:#f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+    background:#2563eb;
+    border-radius:20px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#1d4ed8;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+    h1{
+        font-size:2.5rem !important;
+    }
+
+    h2{
+        font-size:2rem !important;
+    }
+
+    .container{
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+}
